@@ -21,8 +21,8 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://fuwari.vercel.app/",
-  base: "/",
+  site: 'https://Kazusa1085.github.io',
+  base: 'my-repo',
   trailingSlash: "always",
   integrations: [
     tailwind(
