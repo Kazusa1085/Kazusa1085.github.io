@@ -3,7 +3,7 @@ title: Github常用的API
 published: 2021-08-15
 description: This is the first post of my new Astro blog.
 tags: [Knowledge , Git]
-category: Front-end
+category: Technique
 draft: false
 ---
 
