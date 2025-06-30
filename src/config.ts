@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Ryuuka's Notebook",
-	subtitle: "Demo site",
+	title: "Kazusa酱的猫窝",
+	subtitle: "踩坑记录&碎碎念",
 	lang: "zh_CN", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
 		hue: 345, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -50,8 +50,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://avatars.githubusercontent.com/u/195487617?s=400&u=0fc36034f2a535df94218c0b77e8b3adf1619d92&v=4", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Ryuuka Hoshino",
-	bio: "Press Forward With Indomitable Will.",
+	name: "Kazusa1085",
+	bio: "NOT A FAT CAT !!!",
 	links: [
 		{
 			name: "GitHub",
