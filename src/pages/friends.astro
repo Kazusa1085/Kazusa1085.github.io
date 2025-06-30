@@ -15,18 +15,18 @@ if (!friendsPost) {
 const { Content } = await friendsPost.render();
 const items = [
   {
-    title: 'Astro',
-    imgurl: 'https://avatars.githubusercontent.com/u/44914786?s=48&v=4',
-    desc: 'The web framework for content-driven websites. ⭐️ Star to support our work!',
-    siteurl: 'https://github.com/withastro/astro',
-    tags: ['项目'],
-  },
-  {
     title: '欧阳淇淇的小屋',
     imgurl: 'https://ouyangqiqi.cn/qiqi.jpg',
     desc: '只是个会玩脚本不会写的傻白甜.',
     siteurl: 'https://ouyangqiqi.cn',
-    tags: ['大佬们'],
+    tags: ['大姐头！'],
+  },
+  {
+    title: 'Atmosphere',
+    imgurl: 'https://avatars.githubusercontent.com/u/17957399',
+    desc: 'IN PURSUIT OF FREEDOM',
+    siteurl: 'https://blog.awa.moe',
+    tags: ['↑超级大佬↑'],
   },
 ]
 const shuffledItems = [...items].sort(() => Math.random() - 0.5);
