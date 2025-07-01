@@ -266,10 +266,7 @@ A：给我爪巴！
 
 
 
-
-/*Author:Skrshadow "901A"*/
-
-/*Refreshed:Kazusa1085*/
+/*Refreshed: Kazusa1085*/
 
 /*Update at 2025.07.02, 17:08*/
 
