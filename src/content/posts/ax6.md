@@ -45,15 +45,24 @@ draft: false
 
 登入 AX6 后台，检查固件版本。
 
-推荐的版本号为：MiWiFi 稳定版 1.0.16（[点此下载](https://raw.githubusercontent.com/Kazusa1085/Redmi-AX6_OpFiles/main/miwifi_ra69_firmware_a7244_1.0.16.bin)），本教程仅保证在该版本下有效
+推荐的版本号为：MiWiFi 稳定版 1.0.16（[点此下载](https://raw.githubusercontent.com/Kazusa1085/Redmi-AX6_OpFiles/main/miwifi_ra69_firmware_a7244_1.0.16.bin)），本教程仅保证在该版本下有效，若版本号不匹配，请先升级 / 降级固件。
 
-若版本号不匹配，请先升级 / 降级固件。
+首先将将电脑与辅助路由器通过有线连接，并通过ssh连接辅助路由器。
 
-将电脑与辅助路由器通过有线连接。
-
-假设辅助路由器地址为 192.168.1.1，则：
+假设辅助路由器地址为 192.168.1.1，则连接的命令通常看起来是这样的：
 
 ```shell
+ssh root@192.168.1.1
+```
+
+成功连接辅助路由器后，你需要逐条执行下面的命令：
+
+:::warning[警告]
+**执行本脚本会更改您的网络和无线设定，执行之前请务必备份相关数据**
+:::
+
+```shell
+cd /tmp
 curl -sSL https://raw.githubusercontent.com/Kazusa1085/Redmi-AX6_OpFiles/main/wireless.sh | bash
 ```
 
@@ -63,8 +72,6 @@ curl -sSL https://raw.githubusercontent.com/Kazusa1085/Redmi-AX6_OpFiles/main/wi
 sh /root/wireless.sh
 ```
 
-**警告： 执行本脚本会更改您的网络和无线设定，执行之前请务必备份相关数据**
-
 [![返回结果](https://user-images.githubusercontent.com/22235437/171395788-1281eae4-6457-47ad-8796-4fcf389130ea.png#vwid=922&vhei=513)](https://user-images.githubusercontent.com/22235437/171395788-1281eae4-6457-47ad-8796-4fcf389130ea.png#vwid=922&vhei=513)
 
 将电脑与辅助路由器的有线连接断开，连接到你的AX6上。
@@ -73,9 +80,9 @@ sh /root/wireless.sh
 
 然后访问下面的 URL（STOK，ssid和pwd替换后均不含尖括号）：
 
-   ```URL
+```URL
 http://192.168.31.1/cgi-bin/luci/;stok=<stok>/api/xqsystem/extendwifi_connect_inited_router?ssid=<ssid>&password=<pwd>&admin_username=root&admin_password=admin&admin_nonce=xxx
-   ```
+```
 
 其中 <stok>为上一步获得到stok值， <ssid>为辅助路由器的wifi名 <pwd>为辅助路由器的wifi密码 ，请根据实际情况填写。
 
