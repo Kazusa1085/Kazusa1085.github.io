@@ -2,7 +2,7 @@
 title: 记一次红米AX6的解锁刷机扩容过程。
 published: 2022-09-17
 description: 红米AX6的刷OpenWRT的教程
-image: https://blog.rana.icu/picx-images-hosting/20250702/IMG_20250702_065651.5xaws54qkr.webp
+image: https://blog.raana.icu/picx-images-hosting/20250702/IMG_20250702_065651.5xaws54qkr.webp
 tags: [OpenWRT , Router]
 category: Technique
 draft: false
@@ -278,6 +278,6 @@ A：给我爪巴！
 /*Update at 2025.07.02, 07:08*/
 
 
-[1]: https://blog.rana.icu/picx-images-hosting/20250702/IMG_20250702_035508.3d52fbs2xc.webp
-[2]: https://blog.rana.icu/picx-images-hosting/20250702/IMG_20250702_035438.9dd8k21olw.webp
-[3]: https://blog.rana.icu/picx-images-hosting/20250702/IMG_20250702_035423.6pns9p8na1.webp
+[1]: https://blog.raana.icu/picx-images-hosting/20250702/IMG_20250702_035508.3d52fbs2xc.webp
+[2]: https://blog.raana.icu/picx-images-hosting/20250702/IMG_20250702_035438.9dd8k21olw.webp
+[3]: https://blog.raana.icu/picx-images-hosting/20250702/IMG_20250702_035423.6pns9p8na1.webp
