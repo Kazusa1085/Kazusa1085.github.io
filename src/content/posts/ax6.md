@@ -84,7 +84,7 @@ sh /root/wireless.sh
 http://192.168.31.1/cgi-bin/luci/;stok=<stok>/api/xqsystem/extendwifi_connect_inited_router?ssid=<ssid>&password=<pwd>&admin_username=root&admin_password=admin&admin_nonce=xxx
 ```
 
-其中 <stok>为上一步获得到stok值， <ssid>为辅助路由器的wifi名 <pwd>为辅助路由器的wifi密码 ，请根据实际情况填写。
+其中 `<stok>`为上一步获得到stok值， `<ssid>`为辅助路由器的wifi名，`<pwd>`为辅助路由器的wifi密码 ，请根据实际情况填写。
 
 等待一会，当浏览器显示如图所示的 code 0 则表示 破解SSH成功， root密码查看5GHz频段WiFi密码即可得到。
 
@@ -271,7 +271,7 @@ A：焊接这一步建议使用自己熟悉的方式。贴片焊接无所谓你�
 
 **Q：CDT刷错了怎么办？**
 
-A：刷错文件的话可以使用TTL在Uboot环境下刷入正确的文件。刷错分区的话，没有备份那就寄,~~建议50出我~~。
+A：刷错文件的话可以使用TTL在Uboot环境下刷入正确的文件。刷错分区的话，没有备份那就寄，~~建议50出我~~。
 
 **Q：你折腾AX6干啥，这机器纯fw。**
 
