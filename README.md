@@ -62,7 +62,6 @@ lang: jp      # Set only if the post's language differs from the site's language
 ---
 ```
 
-
 ## 🧩 Markdown Extended Syntax
 
 In addition to Astro's default support for [GitHub Flavored Markdown](https://github.github.com/gfm/), several extra Markdown features are included:
