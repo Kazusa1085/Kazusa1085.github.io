@@ -29,6 +29,8 @@ A static blog template built with [Astro](https://astro.build).
 - [x] Table of contents
 - [x] RSS feed
 
+忙了半年发现似乎自己的blog炸掉了，Rebuild in progress.
+
 ## 🚀 Getting Started
 
 1. Create your blog repository:
